@@ -1,0 +1,14 @@
+{
+  "name": "mapper",
+  "repo": "bredele/mapper",
+  "description": "Turns any function into an array mapping",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
