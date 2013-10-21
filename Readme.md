@@ -22,10 +22,14 @@ square([1,2,3]);
 Mapper get nicer when use with [get](https://github.com/timoxley/get).
 
 ```js
-mapify(get('name'))([
-	{name:'olivier'},
-	{name:'amy'}
-]);
+var arr = [{
+  name: 'olivier',
+  age: '27'
+},{
+  name: 'amy'
+  age: '26'
+}];
+mapify(get('name'))(arr);
 // ['olivier', 'amy']
 
 ```
