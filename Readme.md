@@ -1,4 +1,4 @@
-# mapper
+# mapify
 
   Turns any function into an array mapping
 
@@ -6,7 +6,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install bredele/mapper
+    $ component install bredele/mapify
 
 ## Usage
 
