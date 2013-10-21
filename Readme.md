@@ -9,8 +9,16 @@
 
     $ component install bredele/mapper
 
-## API
+## Usage
 
+```js
+var mapper = require('mapper');
+var square = mapper(function(n){return n * n;});
+
+square([1,2,3]);
+// [1,4,9]
+
+```
 
 
 ## License
