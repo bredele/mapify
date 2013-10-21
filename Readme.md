@@ -1,4 +1,3 @@
-
 # mapper
 
   Turns any function into an array mapping
@@ -12,8 +11,8 @@
 ## Usage
 
 ```js
-var mapper = require('mapper');
-var square = mapper(function(n){return n * n;});
+var mapify = require('mapify');
+var square = mapify(function(n){return n * n;});
 
 square([1,2,3]);
 // [1,4,9]
@@ -23,7 +22,7 @@ square([1,2,3]);
 Mapper get nicer when use with [get](https://github.com/timoxley/get).
 
 ```js
-mapper(get('name'))([
+mapify(get('name'))([
 	{name:'olivier'},
 	{name:'amy'}
 ]);
