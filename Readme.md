@@ -20,7 +20,8 @@ square([1,2,3]);
 
 ```
 
-Mapper get nice when use with [get](https://github.com/timoxley/get)
+Mapper get nicer when use with [get](https://github.com/timoxley/get).
+
 ```js
 mapper(get('name'))([
 	{name:'olivier'},
