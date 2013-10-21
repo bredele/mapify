@@ -1,6 +1,6 @@
 {
-  "name": "mapper",
-  "repo": "bredele/mapper",
+  "name": "mapify",
+  "repo": "bredele/mapify",
   "description": "Turns any function into an array mapping",
   "version": "0.0.1",
   "keywords": [],
