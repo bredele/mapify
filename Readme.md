@@ -19,7 +19,7 @@ square([1,2,3]);
 
 ```
 
-Mapper get nicer when use with [get](https://github.com/timoxley/get).
+Mapify get nicer when use with [get](https://github.com/timoxley/get).
 
 ```js
 var arr = [{
