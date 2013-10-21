@@ -20,6 +20,15 @@ square([1,2,3]);
 
 ```
 
+Mapper get nice when use with (get)[https://github.com/timoxley/get]
+```js
+mapper(get('name'))([
+	{name:'olivier'},
+	{name:'amy'}
+]);
+// ['olivier', 'amy']
+
+```
 
 ## License
 
